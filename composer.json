@@ -6,7 +6,12 @@
     "prefer-stable": true,
     "require": {
         "acquia/blt": "^8.3",
-        "geerlingguy/drupal-vm": "~4.3"
+        "geerlingguy/drupal-vm": "~4.3",
+        "drupal/media_acquiadam": "1.x-dev",
+        "drupal/lightning": "2.25.0",
+        "cweagans/composer-patches": "^1.6.4",
+        "drupal/admin_toolbar": "^1.21",
+        "drupal/queue_ui": "2.x-dev"
     },
     "require-dev": {},
     "extra": {
@@ -56,6 +61,9 @@
             "merge-scripts": true,
             "replace": false,
             "ignore-duplicates": true
+        },
+        "patches": {
+
         }
     }
 }

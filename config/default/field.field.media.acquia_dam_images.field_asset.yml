@@ -1,0 +1,27 @@
+uuid: d2e463ea-0656-40a8-9dcd-92613ed5512b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_asset
+    - media.type.acquia_dam_images
+  module:
+    - file
+id: media.acquia_dam_images.field_asset
+field_name: field_asset
+entity_type: media
+bundle: acquia_dam_images
+label: Asset
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf jpg png jpeg gif mp3 mp4 mov doc docx rtf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

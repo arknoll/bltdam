@@ -1,0 +1,23 @@
+uuid: d78b7d1c-3cd6-4de5-a8bc-50ffec03d288
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_asset_id
+    - media.type.acquia_dam_images
+id: media.acquia_dam_images.field_asset_id
+field_name: field_asset_id
+entity_type: media
+bundle: acquia_dam_images
+label: 'Asset ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

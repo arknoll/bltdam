@@ -1,0 +1,33 @@
+uuid: d1cbd379-ce83-4eff-ac9c-2fd1031b6d68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.acquia_dam_images.field_asset
+    - field.field.media.acquia_dam_images.field_asset_id
+    - field.field.media.acquia_dam_images.field_media_acquiadam_asset
+    - image.style.large
+    - media.type.acquia_dam_images
+  module:
+    - image
+id: media.acquia_dam_images.default
+targetEntityType: media
+bundle: acquia_dam_images
+mode: default
+content:
+  thumbnail:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_asset: true
+  field_asset_id: true
+  field_media_acquiadam_asset: true
+  name: true
+  uid: true

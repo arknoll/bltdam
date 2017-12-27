@@ -1,0 +1,27 @@
+uuid: 45559e2c-bdc7-4379-9fce-f7298ce615ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_acquiadam
+name: acquia_dam_images
+label: 'Acquia DAM Images'
+display: iframe
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  d840e448-8857-4b56-98f0-5d919822b354:
+    settings:
+      media_type: acquia_dam_images
+      submit_text: 'Select assets'
+    uuid: d840e448-8857-4b56-98f0-5d919822b354
+    weight: 1
+    label: acquiadam
+    id: acquiadam

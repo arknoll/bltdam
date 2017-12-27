@@ -1,0 +1,23 @@
+uuid: a47fdc75-7dbc-4534-9ee8-f7e51bfa1ede
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_acquiadam_asset
+    - media.type.acquia_dam_images
+id: media.acquia_dam_images.field_media_acquiadam_asset
+field_name: field_media_acquiadam_asset
+entity_type: media
+bundle: acquia_dam_images
+label: 'Acquia DAM asset'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

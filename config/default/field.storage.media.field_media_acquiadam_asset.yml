@@ -1,0 +1,20 @@
+uuid: b138a6f7-3d7e-4188-bf27-49564a68bc23
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_media_acquiadam_asset
+field_name: field_media_acquiadam_asset
+entity_type: media
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

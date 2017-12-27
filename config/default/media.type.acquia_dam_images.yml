@@ -1,0 +1,15 @@
+uuid: cc63e71f-8256-4884-a6a0-a4560c5ca4d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_acquiadam
+id: acquia_dam_images
+label: 'Acquia DAM Images'
+description: ''
+source: acquiadam_asset
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_acquiadam_asset
+field_map: {  }

@@ -1,0 +1,13 @@
+uuid: 933c4b75-bccf-4e83-b17f-a43c78fda893
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: dP8_fdyCut6SD0rkBuyf1yuwuK-m2lTBzHk2Uq6BVMM
+id: media_publish_action
+label: 'Publish media'
+type: media
+plugin: media_publish_action
+configuration: {  }

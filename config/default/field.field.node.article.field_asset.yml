@@ -1,0 +1,28 @@
+uuid: d19ea0f9-022b-4a66-a13d-4f3e60da9336
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_asset
+    - media.type.acquia_dam_images
+    - node.type.article
+id: node.article.field_asset
+field_name: field_asset
+entity_type: node
+bundle: article
+label: Asset
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      acquia_dam_images: acquia_dam_images
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
